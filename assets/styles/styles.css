@@ -1,0 +1,33 @@
+.header__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 90%;
+  margin: 30px auto;
+}
+
+.header__item {
+  margin: 0 55px 0 55px;
+  text-decoration: none;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.7em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.header__item:hover {
+  -webkit-text-decoration: overline underline #333333;
+          text-decoration: overline underline #333333;
+}
+
+.header__logo {
+  max-width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

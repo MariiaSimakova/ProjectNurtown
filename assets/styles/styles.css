@@ -1,8 +1,14 @@
+.hamburger-menu__bar {
+  display: block;
+  width: 25px;
+  height: 1.5px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #333333;
+}
+
 .header__container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 20% 80%;
-      grid-template-columns: 20% 80%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -10,7 +16,65 @@
   margin: 30px auto;
 }
 
-.header__item {
+@media screen and (max-width: 968px) {
+  .header__container {
+    max-width: 100%;
+  }
+}
+
+.header__hamburger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 968px) {
+  .header__hamburger-menu {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.header__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 968px) {
+  .header__list {
+    position: fixed;
+    left: 100%;
+    top: 6rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+.header__list.active {
+  left: 30%;
+}
+
+@media screen and (max-width: 480px) {
+  .header__list.active {
+    left: -10%;
+  }
+}
+
+.header__link {
   margin: 0 55px 0 55px;
   text-decoration: none;
   font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -22,13 +86,32 @@
   color: #333333;
 }
 
-.header__item:hover {
+.header__link:hover {
   -webkit-text-decoration: overline underline #333333;
           text-decoration: overline underline #333333;
 }
 
+@media only screen and (max-width: 968px) {
+  .header__list-item {
+    margin: 1.5rem 0;
+  }
+}
+
 .header__logo {
   max-width: 100%;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 5rem;
 }
 
 .footer {

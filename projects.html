@@ -7,10 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
     <title>Наши проекты</title>
 </head>
 
 <body>
+    <div class="header">
+        <div class="header__container">
+            <nav class="header__nav">
+                <a href="./index.html" class="header__logo">
+                    <img src="./assets/images/header/logo.svg" alt="Digital project">
+                </a>
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a href="./index.html" class="header__link"> Main </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="./gallery.html" class="header__link"> Gallery </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="#" class="header__link"> Projects </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="./certificates.html" class="header__link"> Certifications </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="./contacts.html" class="header__link"> Contacts </a>
+                    </li>
+                </ul>
+                <div class="header__hamburger-menu">
+                    <span class="hamburger-menu__bar"></span>
+                    <span class="hamburger-menu__bar"></span>
+                    <span class="hamburger-menu__bar"></span>
+                </div>
+            </nav>
+        </div>
+    </div>
     <div class="wrapper">
         <div class="projects__title">
             <h2 class="title1">Наши</h2>
@@ -73,6 +105,60 @@
             </div>
         </section>
     </div>
+    <div class="footer">
+        <div class="footer__container">
+            <div class="footer__logo">
+                <img src="./assets/images/footer/logo.svg" alt="Digital project">
+            </div>
+            <div class="footer__nav">
+                <h3 class="footer__title">Information</h3>
+                <a href="./index.html" class="footer__link footer__link-nav">Main</a> <br>
+                <a href="./gallery.html" class="footer__link footer__link-nav">Gallery</a> <br>
+                <a href="#" class="footer__link footer__link-nav">Projects</a> <br>
+                <a href="./certificates.html" class="footer__link footer__link-nav">Certifications</a> <br>
+                <a href="./contacts.html" class="footer__link footer__link-nav">Contacts</a>
+            </div>
+            <div class="footer__contacts">
+                <h3 class="footer__title">Contacts</h3>
+                <div class="footer__contacts-container">
+                    <img src="./assets/images/footer/map.svg" alt="map" class="footer__contacts-icon">
+                    <a href="#" class="footer__link">
+                        1234 Sample Street <br> Austin Texas 78704
+                    </a>
+                </div>
+                <div class="footer__contacts-container">
+                    <img src="./assets/images/footer/phone.svg" alt="phone" class="footer__contacts-icon">
+                    <a href="tel:512-333-2222" class="footer__link"> 512-333-2222</a>
+                </div>
+                <div class="footer__contacts-container">
+                    <img src="./assets/images/footer/mail.svg" alt="mail" class="footer__contacts-icon">
+                    <a href="mailto:sampleemail@gmail.com" class="footer__link">
+                        sampleemail@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer__social">
+                <h3 class="footer__title"> Social media</h3>
+                <div class="footer__social-container">
+                    <a href="facebook.com" class="footer__link footer__link-social">
+                        <img src="./assets/images/footer/facebook.svg" alt="facebook" class="footer__icon">
+                    </a>
+                    <a href="twitter.com" class="footer__link footer__link-social">
+                        <img src="./assets/images/footer/twitter.svg" alt="twitter" class="footer__icon">
+                    </a>
+                    <a href="linkedin.com" class="footer__link footer__link-social">
+                        <img src="/assets/images/footer/linkedin.svg" alt="linkedin" class="footer__icon">
+                    </a>
+                    <a href="pinterest.com" class="footer__link footer__link-social">
+                        <img src="./assets/images/footer/pinterest.svg" alt="pinterest" class="footer__icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            &copy; 2021 All Rights Reserved
+        </div>
+    </div>
+    <script src="./assets/scripts/header.js"></script>
 </body>
 
 </html>

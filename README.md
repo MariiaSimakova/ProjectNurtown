@@ -10,8 +10,9 @@
 ## Чему мы научились:
 * Командная работа по Agile 
 ## Принимали участие:
-https://github.com/dnemirich - header, footer, pop up, form<br>
-https://github.com/MariiaSimakova - projects, sample project, certifications<br>
-https://github.com/LexFil - photo gallery, contact information<br>
-https://github.com/a-learn-a - main page
+[dnemirich](https://github.com/dnemirich)<br>header<br>footer<br>pop up<br>form<br><br>
+[MariiaSimakova](https://github.com/MariiaSimakova)<br>projects<br>sample project<br>certifications<br><br>
+[LexFil](https://github.com/LexFil)<br>photo gallery<br>contact information<br><br>
+[a-learn-a](https://github.com/a-learn-a)<br>main page<br>
+
 

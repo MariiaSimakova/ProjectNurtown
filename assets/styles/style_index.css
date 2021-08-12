@@ -75,6 +75,10 @@ a {
 
 .nav-arrows__right-bg {
     margin-left: 23px;
+}
+
+.nav-arrows__left-bg:hover,
+.nav-arrows__right-bg:hover {
     background-color: #F2F2F2;
 }
 

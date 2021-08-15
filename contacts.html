@@ -6,24 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/Contact/assets/style.css">
-    <link rel="stylesheet" href="/Contact/assets/normalize.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
 </head>
 
 <body>
-    <div class="contact">
-        <div class="contact-information">
-            <h1 class="contact-information__contact">Contact</h1>
-            <h1 class="contact-information__information">Information</h1>
+    <div class="header">
+        <div class="header__container">
+            <nav class="header__nav">
+                <a href="./index.html" class="header__logo">
+                    <img src="./assets/images/header/logo.svg" alt="Digital project">
+                </a>
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a href="./index.html" class="header__link"> Main </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="./gallery.html" class="header__link"> Gallery </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="./projects.html" class="header__link"> Projects </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="./certificates.html" class="header__link"> Certifications </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="#" class="header__link"> Contacts </a>
+                    </li>
+                </ul>
+                <div class="header__hamburger-menu">
+                    <span class="hamburger-menu__bar"></span>
+                    <span class="hamburger-menu__bar"></span>
+                    <span class="hamburger-menu__bar"></span>
+                </div>
+            </nav>
         </div>
-        <p class="contact__name">
-            <span class="contact__name_bold">Company Name</span><br>
-            1234 Sample Street Austin Texas 76401</p>
-        <p class="contact__tel">512.333.2222</p>
-        <p class="contact__mail">sampleemail@gmail.com</p>
-        <div class="contact__buttom">CONTACT US</div>
     </div>
-    <img src="/Contact/assets/image/map.jpg" alt="map" class="img">
+    <div class="contacts-container">
+        <div class="contacts__title">
+            <h2 class="contacts__title_item-1">Contact</h2>
+            <h2 class="contacts__title_item-2">Information</h2>
+        </div>
+        <div class="contacts__map-container">
+            <iframe class="contacts__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10032.300299115683!2d-97.74607671224125!3d30.275136741318242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50b0ef9fb67%3A0xab833a79d993bac3!2s1000%20Guadalupe%20St%2C%20Austin%2C%20TX%2078701%2C%20USA!5e0!3m2!1sen!2sru!4v1629068374027!5m2!1sen!2sru"></iframe>
+        </div>
+        <div class="contacts__address">
+            <p> <span> Company Name </span> <br>
+                1234 Sample Street Austin Texas 76401
+            </p>
+        </div>
+
+        <p class="contacts__tel">512.333.2222</p>
+        <p class="contacts__mail">sampleemail@gmail.com</p>
+        <div class="contacts__button-container">
+            <button class="contacts__button"> Contact us</button>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="footer__container">
+            <div class="footer__logo">
+                <img src="./assets/images/footer/logo.svg" alt="Digital project">
+            </div>
+            <div class="footer__nav">
+                <h3 class="footer__title">Information</h3>
+                <a href="./index.html" class="footer__link footer__link-nav">Main</a> <br>
+                <a href="./gallery.html" class="footer__link footer__link-nav">Gallery</a> <br>
+                <a href="./projects.html" class="footer__link footer__link-nav">Projects</a> <br>
+                <a href="./certificates.html" class="footer__link footer__link-nav">Certifications</a> <br>
+                <a href="#" class="footer__link footer__link-nav">Contacts</a>
+            </div>
+            <div class="footer__contacts">
+                <h3 class="footer__title">Contacts</h3>
+                <div class="footer__contacts-container">
+                    <img src="./assets/images/footer/map.svg" alt="map" class="footer__contacts-icon">
+                    <a href="#" class="footer__link">
+                        1234 Sample Street <br> Austin Texas 78704
+                    </a>
+                </div>
+                <div class="footer__contacts-container">
+                    <img src="./assets/images/footer/phone.svg" alt="phone" class="footer__contacts-icon">
+                    <a href="tel:512-333-2222" class="footer__link"> 512-333-2222</a>
+                </div>
+                <div class="footer__contacts-container">
+                    <img src="./assets/images/footer/mail.svg" alt="mail" class="footer__contacts-icon">
+                    <a href="mailto:sampleemail@gmail.com" class="footer__link">
+                        sampleemail@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer__social">
+                <h3 class="footer__title"> Social media</h3>
+                <div class="footer__social-container">
+                    <a href="facebook.com" class="footer__link footer__link-social">
+                        <img src="./assets/images/footer/facebook.svg" alt="facebook" class="footer__icon">
+                    </a>
+                    <a href="twitter.com" class="footer__link footer__link-social">
+                        <img src="./assets/images/footer/twitter.svg" alt="twitter" class="footer__icon">
+                    </a>
+                    <a href="linkedin.com" class="footer__link footer__link-social">
+                        <img src="./assets/images/footer/linkedin.svg" alt="linkedin" class="footer__icon">
+                    </a>
+                    <a href="pinterest.com" class="footer__link footer__link-social">
+                        <img src="./assets/images/footer/pinterest.svg" alt="pinterest" class="footer__icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            &copy; 2021 All Rights Reserved
+        </div>
+    </div>
+    <script src="./assets/scripts/header.js"></script>
 </body>
 
 </html>
